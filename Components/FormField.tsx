@@ -1,15 +1,15 @@
 import React from "react";
 import { Control, Controller, FieldValues, Path } from "react-hook-form";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/Components/ui/button";
 import {
     FormItem,
     FormLabel,
     FormControl,
     FormDescription,
     FormMessage,
-} from "@/components/ui/form";
-// @ts-ignore
-import { Input } from "@/components/ui/input";
+} from "@/Components/ui/form";
+
+import { Input } from "@/Components/ui/input";
 
 interface FormFieldProps<T extends FieldValues> {
     control: Control<T>;

@@ -2,10 +2,10 @@ import React from 'react'
 import dayjs from 'dayjs'
 import Image from "next/image";
 import { getRandomInterviewCover } from "@/lib/utils";
-import { Button } from "@/components/ui/button"; // ✅ Fixed import path (lowercase 'components')
+import { Button } from "@/Components/ui/button"; // ✅ Fixed import path (lowercase 'components')
 import Link from "next/link";
-// @ts-ignore
-import DisplayTechIcons from "@/components/DisplayTechIcons"; // ✅ Fixed import path (lowercase 'components')
+
+import DisplayTechIcons from "@/Components/DisplayTechIcons"; // ✅ Fixed import path (lowercase 'components')
 
 interface InterviewCardProps {
     interview: string;
