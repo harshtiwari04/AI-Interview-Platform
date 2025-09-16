@@ -8,6 +8,7 @@ import {
     FormDescription,
     FormMessage,
 } from "@/components/ui/form";
+// @ts-ignore
 import { Input } from "@/components/ui/input";
 
 interface FormFieldProps<T extends FieldValues> {
